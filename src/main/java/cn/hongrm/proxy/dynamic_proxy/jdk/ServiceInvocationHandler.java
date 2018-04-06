@@ -6,6 +6,7 @@ import java.lang.reflect.Proxy;
 
 /**
  * created by hongrm on 2018/4/6 23:49
+ * 生成的代理类实现了接口的方法
  */
 public class ServiceInvocationHandler implements InvocationHandler {
     private Object target;
