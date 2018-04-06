@@ -10,6 +10,6 @@ public class SingletonTest {
     @Test
     public void enumSingletonTest(){
         EnumSingleton instance = EnumSingleton.INSTANCE;
-        instance.printHello();
+        instance.print();
     }
 }

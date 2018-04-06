@@ -1,10 +1,12 @@
 package cn.hongrm.singleton;
 
+import cn.hongrm.base.HelloBase;
+
 /**
  * @author happyhrm
  * 变种的懒汉模式
  */
-public class LazyVariantSingleton {
+public class LazyVariantSingleton implements HelloBase{
 	private static LazyVariantSingleton instance;
 	private LazyVariantSingleton() {}
 

@@ -1,9 +1,11 @@
 package cn.hongrm.singleton;
 
+import cn.hongrm.base.HelloBase;
+
 /**
  * 懒汉模式
  */
-public class LazySingleton {
+public class LazySingleton implements HelloBase{
 	private static LazySingleton instance;
 	
 	private LazySingleton() {}
